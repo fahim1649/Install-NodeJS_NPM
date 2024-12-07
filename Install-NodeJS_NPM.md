@@ -3,22 +3,25 @@
 ```javascript
 #!/bin/bash
 
-# Download Node.js LTS 
+# Download Node.js LTS (Select Only one & Disable others)
 wget https://nodejs.org/dist/v22.12.0/node-v22.12.0-linux-x64.tar.xz
 #wget https://nodejs.org/dist/v20.18.1/node-v20.18.1-linux-x64.tar.xz
-#wget https://nodejs.org/dist/v18.20.5/node-v18.20.5-linux-x64.tar.xz 
+#wget https://nodejs.org/dist/v18.20.5/node-v18.20.5-linux-x64.tar.xz
+#wget https://nodejs.org/dist/v16.20.2/node-v16.20.2-linux-x64.tar.xz
 
 
-# Untar Node.js
+# Untar Node.js (Select Only one & Disable others)
 tar -xvf node-v22.12.0-linux-x64.tar.xz
 #tar -xvf node-v20.18.1-linux-x64.tar.xz
 #tar -xvf node-v18.20.5-linux-x64.tar.xz
+#tar -xvf node-v16.20.2-linux-x64.tar.xz
 
 
-# Move Node.js to /usr/local
+# Move Node.js to /usr/local (Select Only one & Disable others)
 sudo mv node-v22.12.0-linux-x64 /usr/local/node
 #sudo mv node-v20.18.1-linux-x64 /usr/local/node
 #sudo mv node-v18.20.5-linux-x64 /usr/local/node
+#sudo mv node-v16.20.2-linux-x64 /usr/local/node
 
 
 # Create symbolic links for node and npm
