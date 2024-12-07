@@ -1,3 +1,4 @@
+```javascript
 # Install-NodeJS_NPM
 
 #!/bin/bash
@@ -27,3 +28,4 @@ sudo ln -s /usr/local/node/bin/npm /usr/local/bin/npm
 # Verify Node.js installation
 node -v
 npm -v
+```
