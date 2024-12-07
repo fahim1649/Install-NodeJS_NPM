@@ -1,6 +1,6 @@
-```javascript
 # Install-NodeJS_NPM
 
+```javascript
 #!/bin/bash
 
 # Download Node.js LTS 
