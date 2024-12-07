@@ -26,6 +26,6 @@ sudo ln -s /usr/local/node/bin/node /usr/local/bin/node
 sudo ln -s /usr/local/node/bin/npm /usr/local/bin/npm
 
 # Verify Node.js installation
-node -v
-npm -v
+echo "Nodejs version is node -v..."
+echo "npm version is npm -v..."
 ```
